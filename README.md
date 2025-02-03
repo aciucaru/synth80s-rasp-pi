@@ -17,7 +17,7 @@ For outputing audio, the RtAudio library is used.
     * global volume
 * 8-step sequencer with 8 predefined sequences/arpeggios
 * the user can select one of the 8 predefined arpeggios and then change each note individually, via 8 potentiometers
-* setttings for sequencer:
+* settings for sequencer:
     * tempo (BPM)
     * adjust each note of the sequence/arpeggio (+-12 semitones)
 
