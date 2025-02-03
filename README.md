@@ -32,4 +32,5 @@ For outputing audio, the RtAudio library is used.
 #### Short Online video: [youtube](https://youtube.com/shorts/kLM_OgGITTw?feature=share) 
 Observation: this video is for demonstrative purposes only, so it's quality is not very high and it's length isn't very big either. Appologies for that.
 
-![screenshot](schematics/synth80s-rasp-pi-breadboard-schematic.png)
+![schematic](schematics/synth80s-rasp-pi-breadboard-schematic.png)
+![class-diagram](schematics/class-diagram.png)
