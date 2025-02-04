@@ -11,7 +11,6 @@ g++ -D__LINUX_ALSA__ -o synth80s \
     src/audio/oscillator/triangle-oscillator.cpp \
     src/audio/oscillator/multishape-oscillator.cpp \
     src/audio/oscillator/unison-oscillator.cpp \
-    src/audio/filter/moog-low-pass-filter.cpp \
     src/audio/sequencer/step-signal.cpp \
     src/audio/sequencer/asr-step-signal.cpp \
     src/audio/sequencer/note-sequence-factory.cpp \
