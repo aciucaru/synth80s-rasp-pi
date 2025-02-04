@@ -1,15 +1,5 @@
-/* PortAudio installtion instructions:
- * 1. download portasudio library and unzip
- * 2. change directory
- * 3. build:
- * ./configure && make
- * 4. install globally:
- * sudo make install
- * 5. update the system to see new library (because it wasn't installed with apt/ apt-get:
- * sudo ldconfig
- *
- * to compile run the bash script:
- * ./build-desktop.sh
+/* to compile run the bash script:
+ * ./build-rpi.sh
  */
 
 // Always include RtAudio library first, otherwise we get weird compilation error
