@@ -1,4 +1,4 @@
-# Raspberry Pi 80s-style synthesizer anfd sequencer
+# Raspberry Pi 80s-style synthesizer and sequencer
 
 #### Description:
 This is a synthesizer made with Raspberry Pi, C++ the WiringPi library.
