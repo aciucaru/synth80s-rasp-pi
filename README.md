@@ -2,7 +2,7 @@
 
 #### Description:
 This is a synthesizer made with Raspberry Pi, C++ the [WiringPi](https://github.com/WiringPi/WiringPi) library.
-For outputing audio, the RtAudio library is used. For connecting with the SSD1306 OLED Display, the [Displat_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
+For outputing audio, the RtAudio library is used. For connecting with the SSD1306 OLED Display, the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
 
 #### User features:
 * one unison oscillator with 3 shapes: triangle, sawtooth and square
@@ -35,7 +35,7 @@ For outputing audio, the RtAudio library is used. For connecting with the SSD130
 * the hardware buttons use the Raspberry Pi built-in **pull-up/pull-down resistors** to avoid being in the *floating state* (an undefined state, neither HIGH nor LOW), in this case it uses those resistors in **pull-down** mode
 * the hardware buttons are connected to those Raspberry Pi pins which are in **pull-down** mode by default
 * **SPI** is used indirectly (through the [WiringPi](https://github.com/WiringPi/WiringPi) library) to communicate with the 2 Microchip MCP3008 analog to digital converters (ADC)
-* **I2C** is used indirectly (through the [Displat_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) library) to communicate with the SSD1306 OLED Display
+* **I2C** is used indirectly (through the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) library) to communicate with the SSD1306 OLED Display
 * static allocation of variables is used as much as possible, in order to avoid C++ memory leaks
 * because there are so many files in the project, the compilation is made with Linux shell scripts which send the files to the actual g++ compiler:
     * *build-desktop.sh* for desktop computers (this is just for reference, it should not be used, because a regular desktop computer does not have the Raspberry Pi hardware)
