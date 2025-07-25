@@ -28,6 +28,7 @@ For outputing audio, the RtAudio library is used.
 * has two **AudioProcessors** that generate a 'step signal':
     * a simple stepped signal
     * an ASR (Attack-Sustain-Release) stepped signal
+* static allocation of variables is used as much as possible, in order to avoid memory leaks
 
 #### Hardware used:
 * Raspbery Pi 4 4Gb
