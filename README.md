@@ -28,6 +28,7 @@ For outputing audio, the RtAudio library is used.
 * has two **AudioProcessors** that generate a 'step signal':
     * a simple stepped signal
     * an ASR (Attack-Sustain-Release) stepped signal
+* has an **AudioContext** just like [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 * static allocation of variables is used as much as possible, in order to avoid memory leaks
 
 #### Hardware used:
