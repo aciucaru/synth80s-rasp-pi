@@ -1,4 +1,6 @@
 # Build script for Linux desktop version, with RtAudio library.
+# Don't use this script on the Raspberry Pi!
+# This build script will not work on the Raspberry Pi!
 g++ -D__LINUX_ALSA__ -o synth80s \
     src/utils/math-util.cpp \
     src/audio/core/audio-context.cpp \

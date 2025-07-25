@@ -1,4 +1,5 @@
 # Build script for Raspberry Pi version, with RtAudio and WiringPi libraries.
+# Don't use this script on a normal desktop computer!
 # This build script will not work on a normal desktop computer!
 g++ -D__LINUX_ALSA__ -o synth80s \
     src/utils/math-util.cpp \
