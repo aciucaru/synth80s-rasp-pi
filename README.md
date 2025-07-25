@@ -35,7 +35,7 @@ For outputing audio, the RtAudio library is used.
 * because there are so many files in the project, the compilation is made with Linux shell scripts which send the files to the actual g++ compiler:
     * *build-desktop.sh* for desktop computers (this is just for reference, it should not be used, because a regular desktop computer does not have the Raspberry Pi hardware)
     * *build-rpi.sh* for a Raspberry Pi device, this compiles the actual project but it requires a Raspberry Pi device
-* static allocation of variables is used as much as possible, in order to avoid memory leaks
+* static allocation of variables is used as much as possible, in order to avoid C++ memory leaks
 
 #### Hardware used:
 * Raspbery Pi 4 4Gb
