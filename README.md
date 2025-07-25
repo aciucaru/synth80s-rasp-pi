@@ -29,6 +29,8 @@ For outputing audio, the RtAudio library is used.
     * a simple stepped signal
     * an ASR (Attack-Sustain-Release) stepped signal
 * has an **AudioContext** just like [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+* the hardware buttons, potentiometers and OLED display are abstracted away through custom C++ classes that makes them behave more like regular UI objects, instead of actual hardware
+* there is even a **SynthHardwareManager** class that abstracts away even the C++ objects that abstract the physical hardware components (buttons, potentiometers, etc.), so that the synthesizer gets its required parameters (frequency, unison, etc.) directly, whithout having to know about what buttons or potentiometers provide those values
 * static allocation of variables is used as much as possible, in order to avoid memory leaks
 
 #### Hardware used:
