@@ -1,8 +1,7 @@
 # Raspberry Pi 80s-style synthesizer and sequencer
 
 #### Description:
-This is a synthesizer made with Raspberry Pi, C++ the [WiringPi](https://github.com/WiringPi/WiringPi) library.
-For outputing audio, the RtAudio library is used.
+This is a synthesizer made with Raspberry Pi, C++ and the [WiringPi](https://github.com/WiringPi/WiringPi) library.
 
 For connecting with the SSD1306 OLED Display, the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
 
