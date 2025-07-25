@@ -34,6 +34,8 @@ For outputing audio, the RtAudio library is used.
 * there is even a **SynthHardwareManager** class that abstracts away even the C++ objects that abstract the physical hardware components (buttons, potentiometers, etc.), so that the synthesizer gets its required parameters (frequency, unison, etc.) directly, whithout having to know about what buttons or potentiometers provide those values
 * the hardware buttons use the Raspberry Pi built-in **pull-up/pull-down resistors** to avoid being in the *floating state* (an undefined state, neither HIGH nor LOW), in this case it uses those resistors in **pull-down** mode
 * the hardware buttons are connected to those Raspberry Pi pins which are in **pull-down** mode by default
+* **SPI** is used indirectly (through the **WiringPi** library) to communicate with the 2 Microchip MCP3008 analog to digital converters (ADC)
+* **I2C** is used indirectly (through the **Displat_Lib** library) to comminicate with the SSD1306 OLED Display
 * because there are so many files in the project, the compilation is made with Linux shell scripts which send the files to the actual g++ compiler:
     * *build-desktop.sh* for desktop computers (this is just for reference, it should not be used, because a regular desktop computer does not have the Raspberry Pi hardware)
     * *build-rpi.sh* for a Raspberry Pi device, this compiles the actual project but it requires a Raspberry Pi device
