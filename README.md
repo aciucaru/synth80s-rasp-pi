@@ -4,7 +4,7 @@
 This is a synthesizer made with Raspberry Pi, C++ the WiringPi library.
 For outputing audio, the RtAudio library is used.
 
-#### Features:
+#### User features:
 * one unison oscillator with 3 shapes: triangle, sawtooth and square
 * for the unison oscillator we can choose between 1 and 5 oscillators that run in unison
 * available settings for the synth:
@@ -20,6 +20,14 @@ For outputing audio, the RtAudio library is used.
 * settings for sequencer:
     * tempo (BPM)
     * adjust each note of the sequence/arpeggio (+-12 semitones)
+
+#### Programming features:
+* the API designed allows to make custom audio nodes that simulate being "connected" togheter like in [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), though it's not as advanced
+* the base class for node that can be "connected" togheter is **AudioProcessor**
+* we can connect toghether as many **AudioProcessors** as we want
+* has two **AudioProcessors** that generate a 'step signal':
+    * a simple stepped signal
+    * an ASR (Attack-Sustain-Release) stepped signal
 
 #### Hardware used:
 * Raspbery Pi 4 4Gb
