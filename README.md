@@ -44,6 +44,7 @@ For outputing audio, the RtAudio library is used.
 * 11 potentiometers
 * 12 buttons (switches)
 * SSD1306 OLED Display
+* 3 breadboards
 
 Schematic
 ![schematic](doc/synth80s-rasp-pi-breadboard-schematic.png)
