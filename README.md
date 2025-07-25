@@ -32,7 +32,7 @@ For outputing audio, the RtAudio library is used.
 
 #### Hardware used:
 * Raspbery Pi 4 4Gb
-* 2 analog to digital converters (ADC) with 8 channels: Microchip MCP3008 (because the Raspberry Pi does not have analog pins)
+* 2 analog to digital converters (ADC) with 8 channels: Microchip MCP3008 (because the Raspberry Pi does not have analog pins, so we need to convert from analog to digital)
 * T-Cobbler breadboard adapter for Raspberry Pi
 * 11 potentiometers
 * 12 buttons (switches)
