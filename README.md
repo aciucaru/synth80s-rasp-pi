@@ -68,4 +68,4 @@ Pictures
 MIT License
 
 #### Notice:
-Previously, this software was released under the GNU GPL License v3, since the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) library was also released under the same license. Now it appears the the **Display_Lib_RPI** is relicensed under the more permissive MIT license, so I relicensed this code under the MIT license, since I am the only contributor to it.
+Previously, this software was released under the GNU GENERAL PUBLIC LICENSE v3, since the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) library was also released under the same license. Now it appears the the **Display_Lib_RPI** is relicensed under the more permissive MIT license, so I relicensed this code under the MIT license, since I am the only contributor to it.
