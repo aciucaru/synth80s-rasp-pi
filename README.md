@@ -5,7 +5,7 @@ This is a synthesizer made with Raspberry Pi, C++ and the [WiringPi](https://git
 
 For connecting with the SSD1306 OLED Display, the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
 
-For general audio output on Linux, the [RtAudio](https://github.com/thestk/rtaudio) C++ library was used.
+For general audio output on Linux, the [RtAudio](https://github.com/thestk/rtaudio) C++ library is used.
 
 #### User features:
 * one unison oscillator with 3 shapes: triangle, sawtooth and square
