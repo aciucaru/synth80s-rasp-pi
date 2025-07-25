@@ -23,7 +23,7 @@ For outputing audio, the RtAudio library is used.
 
 #### Programming features:
 * the API designed allows to make custom audio nodes that simulate being "connected" togheter like in [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), though it's not as advanced
-* the base class for node that can be "connected" togheter is **AudioProcessor**
+* the base class for nodes that can be "connected" togheter is **AudioProcessor**
 * we can connect toghether as many **AudioProcessors** as we want
 * has two **AudioProcessors** that generate a 'step signal':
     * a simple stepped signal
