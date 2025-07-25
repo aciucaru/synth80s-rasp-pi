@@ -31,9 +31,9 @@ For outputing audio, the RtAudio library is used.
 * has an **AudioContext** just like [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 * the hardware buttons, potentiometers and OLED display are abstracted away through custom C++ classes that makes them behave more like regular UI objects, instead of actual hardware
 * there is even a **SynthHardwareManager** class that abstracts away even the C++ objects that abstract the physical hardware components (buttons, potentiometers, etc.), so that the synthesizer gets its required parameters (frequency, unison, etc.) directly, whithout having to know about what buttons or potentiometers provide those values
-* because there are so many files in the project, the compilation is made with Linux shell scripts which sends the files to the actual g++ compiler:
+* because there are so many files in the project, the compilation is made with Linux shell scripts which send the files to the actual g++ compiler:
     * *build-desktop.sh* for desktop computers (this is just for reference, it should not be used, because a regular desktop computer does not have the Raspberry Pi hardware)
-    * *build-rpi.sh* for a Raspbery Pi device, this compiles the actual project but it requires a Raspbery Pi device
+    * *build-rpi.sh* for a Raspberry Pi device, this compiles the actual project but it requires a Raspberry Pi device
 * static allocation of variables is used as much as possible, in order to avoid memory leaks
 
 #### Hardware used:
