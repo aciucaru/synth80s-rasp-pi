@@ -29,10 +29,10 @@ For outputing audio, the RtAudio library is used.
 * 12 buttons (switches)
 * SSD1306 OLED Display
 
-#### Short Online video: [youtube](https://youtube.com/shorts/kLM_OgGITTw?feature=share) 
-Observation: this video is for demonstrative purposes only, so it's quality is not very high and it's length isn't very big either. Appologies for that.
+![schematic](doc/synth80s-rasp-pi-breadboard-schematic.png)
+![class-diagram](doc/class-diagram.png)
 
-![schematic](schematics/synth80s-rasp-pi-breadboard-schematic.png)
-![class-diagram](schematics/class-diagram.png)
+![picture-1](doc/picture-1.jpeg)
+![picture-2](doc/picture-2.jpeg)
 
 License: GNU GENERAL PUBLIC LICENSE Version 3
