@@ -6,7 +6,7 @@ For outputing audio, the RtAudio library is used.
 
 For connecting with the SSD1306 OLED Display, the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
 
-For general audio output on Linux, the [RtAudio](https://github.com/thestk/rtaudio) library was used.
+For general audio output on Linux, the [RtAudio](https://github.com/thestk/rtaudio) C++ library was used.
 
 #### User features:
 * one unison oscillator with 3 shapes: triangle, sawtooth and square
