@@ -22,6 +22,7 @@ For outputing audio, the RtAudio library is used.
     * adjust each note of the sequence/arpeggio (+-12 semitones)
 
 #### Programming features:
+* though Raspberry Pi is made to work mostly with Python, C++ is used instead through the **WiringPi** library, to have good performance, since audio programming is very demanding
 * the API designed allows to make custom audio nodes that simulate being "connected" togheter like in [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), though it's not as advanced
 * the base class for nodes that can be "connected" togheter is **AudioProcessor**
 * we can connect toghether as many **AudioProcessors** as we want
