@@ -2,7 +2,11 @@
 
 #### Description:
 This is a synthesizer made with Raspberry Pi, C++ the [WiringPi](https://github.com/WiringPi/WiringPi) library.
-For outputing audio, the RtAudio library is used. For connecting with the SSD1306 OLED Display, the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
+For outputing audio, the RtAudio library is used.
+
+For connecting with the SSD1306 OLED Display, the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) is used.
+
+For general audio output on Linux, the [RtAudio](https://github.com/thestk/rtaudio) library was used.
 
 #### User features:
 * one unison oscillator with 3 shapes: triangle, sawtooth and square
@@ -60,4 +64,8 @@ Pictures
 ![picture-1](doc/picture-1.jpeg)
 ![picture-2](doc/picture-2.jpeg)
 
-License: GNU GENERAL PUBLIC LICENSE Version 3
+#### License:
+MIT License
+
+#### Notice:
+Previously, this software was released under the GNU GPL License v3, since the [Display_Lib_RPI](https://github.com/gavinlyonsrepo/Display_Lib_RPI) library was also released under the same license. Now it appears the the **Display_Lib_RPI** is relicensed under the more permissive MIT license, so I relicensed this code under the MIT license, since I am the only contributor to it.
